@@ -1,15 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 
-:root{
+:root {
+	/* color */
+	--black: #000000;
+	--darkPurple: #5c2dd5;
+	--lightPurple: #7945ff;
+	--pink: #fd6687;
+	--yellow: #ffce67;
+	--white: #ffffff;
 
-    /* color */
-    --black: #000000;
-    --darkPurple: #5C2DD5;
-    --lightPurple: #7945FF;
-    --pink: #FD6687;
-    --yellow: #FFCE67;
-    --with: #FFFFFF;
+	/* font */
+	font-family: "Space Grotesk", serif;
+    font-size: 16px;
+    line-height: 21px;
+}
 
-    /* font */
-    --font:   font-family: "Space Grotesk", serif;
+.heading-large {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 71px;
+}
+
+.heading-medium{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.heading-small{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+body {
+    background-color: #7945FF;
+    font-family: "Space Grotesk", serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    padding: 3.3rem;
+}
+
+.btn-nav {
+    border: none;
+    border-radius: 99px;
+    background-color: var(--darkPurple);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 9px 20px;
 }
