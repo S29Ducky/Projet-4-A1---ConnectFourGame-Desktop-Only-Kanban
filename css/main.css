@@ -108,7 +108,7 @@ strong {
 }
 
 .BtnTableau {
-	cursor: pointer;
+  cursor: pointer;
   border-radius: 50px;
   background-color: var(--lightPurple);
   -webkit-box-shadow: inset 0px 15px 3px -3px rgba(0, 0, 0, 0.75);
@@ -116,4 +116,92 @@ strong {
   box-shadow: inset 0px 15px 3px -3px rgba(0, 0, 0, 0.75);
 }
 
+.TableauWinPlayer {
+  display: flex;
+  flex-direction: column;
+}
 
+.Player1Win {
+  text-align: center;
+  top: 80%;
+  right: 42%;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 20px;
+  border: solid 1px var(--black);
+  padding: 25px 55px;
+  border: solid 3px #000000;
+  box-shadow: 0px 10px 0px 0px #000000;
+}
+
+.Payer1Win,
+button {
+  background-color: var(--darkPurple);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.Payer1Win,
+p {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.Player2Win {
+  text-align: center;
+  top: 80%;
+  right: 42%;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 20px;
+  border: solid 1px var(--black);
+  padding: 25px 55px;
+  border: solid 3px #000000;
+  box-shadow: 0px 10px 0px 0px #000000;
+}
+
+.Payer2Win,
+button {
+  background-color: var(--darkPurple);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.Payer2Win,
+p {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.Player2Win {
+  display: none;
+}
+
+.ColorWin1 {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--pink);
+  height: 150px;
+  border-radius: 40px 40px 0 0px;
+}
+
+.ColorWin2 {
+  display: none;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--yellow);
+  height: 150px;
+  border-radius: 40px 40px 0 0px;
+}
+
+.yellow-gold {
+  background-color: #ffce67;
+}

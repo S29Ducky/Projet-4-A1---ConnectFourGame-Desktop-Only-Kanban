@@ -9,6 +9,12 @@
     <title>Document</title>
   </head>
   <body>
+    <!--
+    <div class="menu">
+      <button class="menu-button">PLAY VS PLAYER</button>
+      <button class="menu-button yellow-gold">RULES</button>
+    </div>
+    -->
     <header>
       <button class="btn-nav">MENU</button>
       <img src="./assets/logo.svg" alt="Logo nav" />
@@ -21,24 +27,28 @@
           <p>PLAYER 1</p>
           <strong>0</strong>
         </div>
-        <div class="tableau"></div>
-        <div class="PlayerWin">
-          <p>PLAYER 1</p>
-          <h3>WINS</h3>
-          <button>PLAY AGAIN</button>
-        </div>
-		<div class="PlayerWin">
-			<p>PLAYER 2</p>
-			<h3>WINS</h3>
-			<button>PLAY AGAIN</button>
-		  </div>
+        <section class="TableauWinPlayer">
+          <div class="tableau"></div>
+          <div class="Player1Win">
+            <p>PLAYER 1</p>
+            <h3>WINS</h3>
+            <button class="Restart">PLAY AGAIN</button>
+          </div>
+          <div class="Player2Win">
+            <p>PLAYER 2</p>
+            <h3>WINS</h3>
+            <button class="Restart">PLAY AGAIN</button>
+          </div>
+        </section>
         <div class="player2 player">
           <img src="./assets/player-two.svg" alt="Petit bonhomme player two" />
           <p>PLAYER 2</p>
           <strong>0</strong>
         </div>
       </section>
+      <div class="ColorWin1"></div>
+      <div class="ColorWin2"></div>
     </main>
+    <script src="./app.js"></script>
   </body>
-  <script src="./app.js"></script>
 </html>
