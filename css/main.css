@@ -96,3 +96,8 @@ strong {
 	font-size: 56px;
 	line-height: 71.46px;
 }
+
+/* .tableau{
+	display: grid;
+	grid-template-columns: repeat(7, );
+} */
