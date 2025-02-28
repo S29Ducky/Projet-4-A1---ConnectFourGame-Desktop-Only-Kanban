@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/reset.css" />
-		<link rel="stylesheet" href="./css/normalize.css" />
-		<link rel="stylesheet" href="./css/main.css" />
-		<title>Document</title>
-	</head>
-	<body>
-		<header>
-			<button class="btn-nav">MENU</button>
-			<img src="./assets/logo.svg" alt="Logo nav" />
-			<button class="btn-nav">RESTART</button>
-		</header>
-		<main>
-			<section class="score-player">
-				<div class="player1 player">
-					<img src="./assets/player-one.svg" alt="Petit bonhomme player one" />
-					<p>PLAYER 1</p>
-					<strong>0</strong>
-				</div>
-				<div class="tableau">
-					
-				</div>
-				<div class="player2 player">
-					<img src="./assets/player-two.svg" alt="Petit bonhomme player two" />
-					<p>PLAYER 2</p>
-					<strong>0</strong>
-				</div>
-			</section>
-		</main>
-	</body>
-	<script src="./app.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <button class="btn-nav">MENU</button>
+      <img src="./assets/logo.svg" alt="Logo nav" />
+      <button class="btn-nav">RESTART</button>
+    </header>
+    <main>
+      <section class="score-player">
+        <div class="player1 player">
+          <img src="./assets/player-one.svg" alt="Petit bonhomme player one" />
+          <p>PLAYER 1</p>
+          <strong>0</strong>
+        </div>
+        <div class="tableau"></div>
+        <div class="PlayerWin">
+          <p>PLAYER 1</p>
+          <h3>WINS</h3>
+          <button>PLAY AGAIN</button>
+        </div>
+		<div class="PlayerWin">
+			<p>PLAYER 2</p>
+			<h3>WINS</h3>
+			<button>PLAY AGAIN</button>
+		  </div>
+        <div class="player2 player">
+          <img src="./assets/player-two.svg" alt="Petit bonhomme player two" />
+          <p>PLAYER 2</p>
+          <strong>0</strong>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./app.js"></script>
 </html>
